@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container-flex{
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.leftSide{
+    background-color: #2C73EB;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSide{
+    background-color: #F2F2F2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 35px;
+    /* left: 0; */
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 650px;
+    padding: 20px;
+    color: #8692A6;
+    cursor: pointer;
+}
+.already{
+    color: #2C73EB;
+    margin: 10px;
+    cursor: pointer;
+}
+.backGround{
+    background-color: #2C73EB;
+}
+.navbar-brand, .nav-link, .nav-item{
+    color: white !important;
+}
+.search{
+    color: white;
+}
+.star{
+    color: red;
+}
+#forgotPassword{
+    cursor: pointer;
+    color: #2C73EB;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    color: white;
+}
+p{
+    color: black;
+}
+
+.banner{
+    /* background-image: url(./images/batman-blue-glowing-eyes-dark-gif-preview-desktop-wallpaper.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+    margin-top: 55px; */
+    background-color: #eff2f9;
+    height: 100vh;
+}
+
+.nav-link{
+    color: #2C73EB !important;
+}
+.nav-link.active{
+    color: #aacd4d !important;
+}
+
+.tabBtn{
+    background-color: #fafafa !important;
+    color: #1a6dbb;
+}
+
+/* blog */
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 200px; */
+}
+#detail{
+    width: 400px;
+    height: 200px;
+}
